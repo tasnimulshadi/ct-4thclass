@@ -1,0 +1,138 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Heebo', sans-serif;
+}
+
+
+/*header start*/
+header{
+	width: 100%;
+	float: left;
+	-webkit-transition: 0.5s ease;
+	-moz-transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+}
+header:hover {
+	background-color: #00000014;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 28%;
+	float: left;
+	padding: 10px;
+}
+.logo img {
+	width: 90px;
+	display: block;
+	margin: 5px 73px;
+}
+
+.menu {
+	width: 70%;
+	float: left;
+}
+nav ul {
+	list-style: none;
+	margin: 36px 0px;
+    margin-left: 200px;
+}
+nav ul li {
+	display: inline;
+	padding: 0px 40px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	-webkit-transition: 0.5s ease;
+	-moz-transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+}
+nav ul li a:hover {
+    font-size: 25px;
+}
+/*header end*/
+
+/*section start*/
+
+section{
+	width: 100%;
+	float: left;
+}
+.form {
+	width: 35%;
+    float: left;
+    background-color: #0000000f;
+    margin: 80px;
+    border-radius: 10px;
+}
+.form h2 {
+	text-align: center;
+    font-size: 35px;
+    padding-top: 30px;
+}
+
+.form-one{
+	padding: 95px 35px;
+}
+.form-two{
+	padding: 35px 35px;
+}
+
+.form-input {
+    width: 96%;
+    display: block;
+    margin: 0 auto;
+    padding-left: 5px;
+    font-size: 18px;
+    background-color: transparent;
+    border: 2px solid #00000042;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.form-btn {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    padding: 3px;
+    font-size: 17px;
+    background-color: #00000094;
+    border: none;
+    color: white;
+    border-radius: 10px;
+	-webkit-transition: 0.5s ease;
+	-moz-transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+}
+.form-btn:hover {
+    background-color: #000000bf;
+}
+
+/*section end*/
+
+/*footer start*/
+
+footer{
+	width: 100%;
+	float: left;
+	background-color: #00000014;
+	text-align: center;
+	padding: 35px 0px;
+	-webkit-transition: 0.5s ease;
+	-moz-transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+}
+footer:hover {
+	background-color: #00000099;
+	color: white;
+}
+
+/*footer end*/
+
+
